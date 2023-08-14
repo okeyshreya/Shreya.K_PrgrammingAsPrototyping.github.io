@@ -1,0 +1,87 @@
+.container{
+    background-color:black;
+   padding-left: 100px;
+   padding-top: 100px;
+   padding-bottom: -100px;
+width: 270px;
+height: 254px;
+}
+
+
+
+#one{
+    color: white;
+    position: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: xx-large;
+
+}
+
+#two{
+    color: white;
+    position: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: xx-large;
+
+}
+
+
+img{
+     position: absolute;
+     top: 2%;
+     right:51.5%;
+ width:350px;
+ height:350px;
+
+}
+
+#img{
+    position: absolute;
+    top: 51.2%;
+    right:52.5%;
+width:350px;
+height:355px;
+
+}
+
+#three{
+
+        position: absolute;
+        top: 5%;
+        right: 57%;
+        transform: translate(-60%,100%);
+        z-index: 1;
+        font-family: cursive;
+}
+    
+
+#four{
+
+    position: absolute;
+    top: 31%;
+    right: 61%;
+    transform: translate(-40%,100%);
+    z-index: 1;
+    font-family: cursive;
+}
+
+
+#five{
+
+    position: absolute;
+    top: 57%;
+    right:59.25%;
+    transform: translate(-60%,100%);
+    z-index: 1;
+    font-family: cursive;
+}
+
+#six{
+
+    position: absolute;
+    top: 81%;
+    right:60%;
+    transform: translate(-60%,100%);
+    z-index: 1;
+    font-family: cursive;
+}
