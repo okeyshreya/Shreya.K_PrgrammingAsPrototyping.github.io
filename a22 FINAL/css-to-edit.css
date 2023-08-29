@@ -1,0 +1,139 @@
+/* Add your own CSS here */
+
+/* example of button being styled using the selectors assigned to it in the script.js file */
+
+.text1{
+margin-left:20px;
+font-size: 20px;
+color: white;
+font-weight: 500;
+}
+.text{
+    width: 300px;
+    border: 15px solid #ccd5ae;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.text2{
+    margin-left:20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+   
+
+}
+.buttons:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.text3{
+    margin-left:20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.imgdropdown {
+    background-color: #ccd5ae;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+.fontradio{
+    margin-left:20px;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+}
+
+.text4{
+    margin-left:20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.Red{
+    margin-left:20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.sliders{
+    -webkit-appearance: none;
+  width: 80%;
+  height: 25px;
+  background: #fefae0;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-left: 20px ;
+}
+
+#R::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: red;
+    cursor: pointer;
+  }
+
+#G::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: green;
+    cursor: pointer;
+  }
+
+#B::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: blue;
+    cursor: pointer;
+  }
+
+.text5{
+    margin-left:20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+#Size::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: black;
+    cursor: pointer;
+  }
+
+
+.buttons {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2.5px;
+}
+
+#button1 {
+
+}
+
+/* Use your own selectors [ids(#) and classes(.) for styling the input elements created in p5]  */
