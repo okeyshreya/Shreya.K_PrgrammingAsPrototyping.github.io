@@ -97,7 +97,7 @@ soundFile.loop(true);
   
    
   
-  bg=loadImage('assets/floor1.png');
+  bg=loadImage('assets/Floor1.png');
     // Create a circle at the top-left corner
     circle = new Circle(55, 240, 10);
 
