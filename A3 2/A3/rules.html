@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Play</title>
+    <style>
+        /* CSS for the black background */
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: black;
+        }
+
+        .black-background {
+            color: white; /* Text color */
+            padding: 20px; /* Adjust padding for spacing */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="black-background">
+        <h1>How to Play?</h1>
+        <br>
+        <p>The main motive of this game is to make sure your character touched the point in the maze within the timer limit.</p>
+        <p>We made sure we added RIT building floor map as it is a new building in our campus and many of us have no idea about what the classrooms are and where they’re located.</p>
+        <p> Hence, we made an interactive map with the names of all the rooms and also made sure students can have fun with it by playing it.</p>
+        <p>When the mouse is pressed, the character goes back to its restart point.</p>
+        <p>When the Up, Down, Left or Right arrow buttons are clicked, the character moves accordingly.</p>
+        <p>Hope you guys have fun playing this game!</p>
+        <button onclick="goToPage()">Go Back</button>
+
+    <script>
+        function goToPage() {
+            // Redirect to another web page when the button is clicked
+            window.location.href = 'index.html';
+        }
+    </script>
+    </div>
+</body>
+</html>

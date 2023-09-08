@@ -1,0 +1,85 @@
+/* Overall / Resets --- DO NOT EDIT THIS SECTION ---------------------------- */
+
+html  {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-size: 14px;
+}
+
+body  {
+  margin: 0;
+  padding: 0;
+  height: 100%;   
+  width: 100%;     
+}
+
+canvas {
+  display: block;
+}
+
+
+*   { 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+/*  Header ------------------------------------------------ */
+
+header {
+  width: 100%; /* do not edit this */
+  height: 60px; /* do not edit this */
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+
+/*  Main Container ------------------------------------------------ */
+
+#main-container {
+  width: 100%;
+  height: calc(100vh - 60px); /* do not edit this */
+  display: flex; /* do not edit this */
+}
+
+/*  Column One --- Container for Controls -------------------- */
+
+
+#column-one {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  border-right: 1px solid black;
+}
+
+
+/*  Column Two --- Container for Canvas -------------------- */
+
+#column-two {
+  width: 80%;
+  height: 100%;
+  background-color: lightgrey;
+  display: flex;  /* do not edit this */
+  align-items: center; /* do not edit this */
+  justify-content: center; /* do not edit this */
+}
+
+
+
+/* DO NOT EDIT THE BELOW SECTION, unless you know what you're doing */
+
+/*  Alert -------------------- */
+
+#alert {
+  display: none; 
+}
+
+
+/*  MEDIA QUERIES --- (RESPONSIVE) ------------------------------------------------ */
