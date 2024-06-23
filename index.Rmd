@@ -1,0 +1,86 @@
+---
+title: "Shreya Kolalapudi"
+author: "Shreya Kolalapudi"
+date: "30/07/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# Invoke all your packages here()
+# library(blah blah)
+
+```
+
+## Introduction
+
+> Introduce yourself briefly. Describe briefly what you are going to
+> show here.
+
+## Graph 1
+
+We had to recrete the graph from the website, so I extracted the data and then analizied and understood the data so that I could represent it in the graph format.
+
+```{r read-1}
+my_data_1 <- read_csv(".data/something.csv")
+glimpse(my_data_1)
+
+```
+
+Describe briefly what graph you are going to plot
+
+```{r plot-1}
+my_data_1 %>% ggplot....
+
+```
+
+Brief concluding remarks. What does the graph show? What geometric aesthetics did you use, for example?
+
+## Graph 2
+
+Brief introduction of your chosen data set Describe the interesting
+columns and what they mean
+
+```{r read-2}
+my_data_2 <- read_csv(".Data/something.csv")
+glimpse(my_data_2)
+
+```
+
+Describe briefly what graph you are going to plot
+
+```{r plot-2}
+my_data_2 %>% ggplot....
+
+```
+
+## Graph 3
+
+Brief introduction of your chosen data set Describe the interesting
+columns and what they mean
+
+```{r read-3}
+my_data_3 <- .....
+glimpse(my_data_3)
+```
+
+Describe briefly what graph you are going to plot
+
+```{r plot-3}
+
+
+```
+
+## My Course Reflection
+
+This course was about.....
+
+What I learnt....
+
+How it will help my practice as an aspiring artist and designer....
+
+Arvind is a horrible teacher and simply does not get what we need. Boomers should be allowed to teach any more in Srishti.
+
+Etc.
+
+Jai Hind.
